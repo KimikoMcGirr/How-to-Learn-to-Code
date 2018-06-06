@@ -1,7 +1,7 @@
 import random
 import sys
 
-BOARD = 20
+BOARD = 19
 
 
 class Food:
