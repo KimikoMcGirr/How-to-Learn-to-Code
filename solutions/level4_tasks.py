@@ -11,18 +11,18 @@ def abc_df(data):
     return df
 
 def last_col_median(df):
-    last_col = df.iloc[:,-1]
-    try:
-        answer = last_col.median()
-    except TypeError:
-        answer = None
-    return answer
+    if np.issubdtype(df.iloc[:,-1].dtype, np.number):
+        return df.iloc[:,-1].median(axis=0)
+    else:
+        return None
 
 # def last_col_median(df):
-#     if np.issubdtype(df.iloc[:,-1].dtype, np.number):
-#         return df.iloc[:,-1].median(axis=0)
-#     else:
-#         return None
+#     last_col = df.iloc[:,-1]
+#     try:
+#         answer = last_col.median()
+#     except TypeError:
+#         answer = None
+#     return answer
 
 # last_col_median(df)
 # https://docs.python.org/2/tutorial/errors.html
