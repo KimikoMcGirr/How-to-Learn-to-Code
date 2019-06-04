@@ -1,2 +1,2 @@
-# How-to-Learn-to-Code-2018
-Summer intermediate python course for biological researchers
+# How-to-Learn-to-Code
+Companion materials for the CodeStories summer intermediate python course for biological researchers.
