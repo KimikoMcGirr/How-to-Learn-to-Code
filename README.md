@@ -5,9 +5,9 @@ Companion materials for the CodeStories summer intermediate python course for bi
 # Schedule
 
 | Week	| Class	| Time Block	| Activity |
-------------------------------------------
-|1	|1	|15	|Introductions|
-|1	|1	|30	|L00 WT|
+| ----- | ----- | ----------- | -------- |
+|1	|1	|15	|Introductions |
+|1	|1	|30	|L00 WT |
 |1	|1	|15	|Lecture on dictionaries and list comprehensions|
 |1	|1	|30	|Pair up L0 tasks and problem|
 |1	|2	|10	|L0 WT|
