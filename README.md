@@ -7,16 +7,16 @@ Companion materials for the CodeStories summer intermediate python course for bi
 | Week	| Class	| Time Block	| Activity |
 | ----- | ----- | ----------- | -------- |
 |1	|1	|15	|Introductions |
-|1	|1	|30	|L00 problem and walkthrough |
-|1	|1	|60	|Pair up L0 tasks and problem|
+|1	|1	|30	|L00 problem and walkthrough|
+|1	|1	|45	|L0 tasks and problem|
+|1	|1	|30	|L0 tasks and problem|
 |1	|2	|15	|Lecture on dictionaries and list comprehensions|
-|1	|2	|10	|L0 walkthrough|
-|1	|2	|50	|Pair up L1 tasks and problem|
-|1	|2	|30	|L1 walkthrough|
-|2	|3	|30	|Intro to numpy|
-|2	|3	|60	|Pair up L2 tasks and problem|
-|2	|4	|30	|L2 walkthrough|
-|2	|4	|60	|Pair up L3 tasks and problem|
+|1	|2	|45	|L0 walkthrough|
+|2	|3	|50	|L1 tasks and problem|
+|2	|3	|20	|L1 walk through|
+|2	|3	|20	|Intro to numpy|
+|2	|4	|60	|L2 tasks and problem|
+|2	|4	|30	|L2 walk through|
 |3	|5	|30	|Intro to pandas|
 |3	|5	|40	|Pair up L3 tasks and problem|
 |3	|5	|20	|L3 walkthrough tasks|
