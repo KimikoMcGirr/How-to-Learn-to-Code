@@ -12,9 +12,9 @@ Companion materials for the CodeStories summer intermediate python course for bi
 |1	|1	|30	|L0 tasks and problem|
 |1	|2	|15	|Lecture on dictionaries and list comprehensions|
 |1	|2	|45	|L0 walkthrough|
+|2	|3	|20	|Intro to numpy|
 |2	|3	|50	|L1 tasks and problem|
 |2	|3	|20	|L1 walk through|
-|2	|3	|20	|Intro to numpy|
 |2	|4	|60	|L2 tasks and problem|
 |2	|4	|30	|L2 walk through|
 |3	|5	|30	|Intro to pandas|
