@@ -15,13 +15,12 @@ Companion materials for the CodeStories summer intermediate python course for bi
 |2	|3	|20	|Intro to numpy|
 |2	|3	|50	|L1 tasks and problem|
 |2	|3	|20	|L1 walk through|
-|2	|4	|60	|L2 tasks and problem|
-|2	|4	|30	|L2 walk through|
-|3	|5	|30	|Intro to pandas|
-|3	|5	|40	|Pair up L3 tasks and problem|
-|3	|5	|20	|L3 walkthrough tasks|
-|3	|6	|30	|L3 walkthrough problem|
-|3	|6	|15	|Clairify issues|
+|2	|4	|90	|L2 tasks and problem|
+|3	|5	|35	|L2 walk through|
+|3	|5	|35	|Intro to pandas|
+|3	|5	|20	|L3 tasks and problem|
+|3	|6	|60	|L3 tasks and problem|
+|3	|6	|30	|L3 walk through|
 |4	|7	|20	|Reproducibility|
 |4	|7	|70	|Pair up L4 tasks and problem|
 |4	|8	|40	|Pair up L4 tasks and problem|
