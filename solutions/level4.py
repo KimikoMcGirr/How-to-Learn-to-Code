@@ -8,9 +8,9 @@ def pheno_corr(data, theraptrix_ps):
         thera_proteins = [line.strip() for line in f.readlines()]
     data = data[(data['Exp Sig'] == True) & (data['Protein'].isin(thera_proteins))]
     grouped_means = data.groupby('Cell Type').mean()
-    print(grouped_means)
+    # print(grouped_means)
     pheno_data = grouped_means.iloc[:,-7:] #3 when on test data
-    print(pheno_data)
+    # print(pheno_data)
     max_value = pheno_data.max().max()
     cell_type = pheno_data.max(axis=1).idxmax()
     pheno = pheno_data.max(axis=0).idxmax()
