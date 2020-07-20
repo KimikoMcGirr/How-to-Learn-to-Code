@@ -24,13 +24,13 @@ Virus
 
 * Like food, viruses have a position and mass of 10.
 * Additionally, they also have a defense attribute.
-  * The defense attribute can always be calculated as the square root virus mass divided by 20.
+  * The defense attribute can always be calculated as the square root of the virus' mass divided by 20.
 * Viruses are capable of moving around the tissue.
   * They can move a single step in any direction each time step.
   * That is, both x and y can independently increase by -1, 0, or 1.
   * The virus must stay in the bounds of the simulation while moving.
   * That means, a virus can potentially spend a turn by attempting to move but not changing position.
-  * To phase it another way, if a virus does not start along an edge or in a corner, then it can end in any of nine positions.
+  * To phrase it another way, if a virus does not start along an edge or in a corner, then it can end in any of nine positions.
 * Any time a virus is in the same location as a food particle, it consumes the food.
   * Food consumption increase the mass of the virus by the mass of the food consumed.
 * If a virus reaches a mass of 25, it divides.
@@ -42,20 +42,20 @@ Macrophage
 
 * Macrophages also have positions, but there is no need to keep track of their mass.
 * Each time step, a macrophage can move in one of two ways.
-  * It can move five steps in a straight line (up, down, left, or right), or it can take three steps at random.
-  * If it moves at random, -1, 0, or 1 is added to x or y (not both) each step.
-  * The macrophage must stay in the bounds of the simulation while moving.
+  * It can move in a straight line, or it can move at random.
+  * If the macrophage moves at random, -1, 0, or 1 is added to either x or y (not both) for each of three steps.
+  * If it moves in a straight line (up, down, left, right), it moves five positions per simulation time step.
   * The macrophage has an equal probability of moving in a straight line or at random.
-  *  If the macrophage moves in a straight line (up, down, left, right), it moves five steps per time step.
+  * The macrophage must stay in the bounds of the simulation while moving.
+  
 * If it runs into a virus, it has a baseline 35% chance of destroying the virus.
 * The macrophage will continue to move even after running into a virus.
-* If it moves at random (up, down, left, right), it takes three steps,
-but it has a baseline 50% chance of killing any viruses.
+* If it moves at random (i.e it takes three steps), it has an additional 15% chance of killing any viruses.
 * This baseline probability can be supplemented by a 'history' probability.
-  * For each virus a give macrophage kills, this 'history' attribute is increased by 5%.
+  * For each virus a given macrophage kills, this 'history' attribute is increased by 5%.
   * This increased probability of killing a virus can be as large as 50%
   * Finally, any probability a macrophage has of destroying a virus is reduced by the defense attribute of the attacked virus.
-  * If the virus' defense is equal to or larger than the macrophage's history-supplemented probability of success, then the virus will not be destroyed.
+  * If the virus' defense is equal to or larger than the macrophage's history-supplemented probability of success, then the virus is guaranteed to survive.
 
 Simulation
 ----------
