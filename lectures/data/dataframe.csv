@@ -1,0 +1,21 @@
+﻿Sample,Sex,output,output2
+Placebo,M,12,1
+Placebo,F,100,2
+Placebo,M,23,3
+Placebo,M,24,4
+Test high,F,600,5
+Test high,F,450,6
+Test high,F,300,7
+Test high,F,300,8
+Test high,M,230,9
+Test high,M,503,10
+Test low,F,100,11
+Test low,F,305,12
+Test low,M,258,13
+Test low,M,185,14
+Test low,M,79,15
+Test low,M,395,16
+Test low,M,100,17
+Test low,F,201,18
+Test low,F,147,19
+Test low,F,109,20
